@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-image: linear-gradient(to right, rgb(109, 231, 9), rgb(32, 128, 8));
+            margin: 0;
+        }
+
+        header{
+            background-image: linear-gradient(to left, rgb(0, 255, 0), rgb(3, 94, 3));
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        main{
+            background-color: chartreuse;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        footer{
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            margin: 0;
+            padding: 1px;
+        }
+
+        article{
+            background-color: rgb(41, 204, 41);
+        }
+
+        article > aside {
+            background-color: rgb(98, 192, 3);
+        }
+
+        nav{
+            background-color: lime;
+            padding: 3px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 25px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil pariatur vel magnam fuga facere. Corporis molestiae sunt numquam maxime ea laborum ipsa, architecto at iure odit, iusto iste ratione ab. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut quo vel id odio tempore repudiandae inventore voluptatibus maxime, nisi autem minus praesentium, architecto nesciunt quae ea quisquam fuga culpa eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum natus obcaecati vero quam dicta quas eveniet esse libero sint expedita earum odit accusamus veniam velit illum inventore excepturi, consequuntur iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae tempora ratione perspiciatis voluptatibus nesciunt debitis, deleniti quam provident voluptas officia aliquam, illum ullam totam, eligendi dicta perferendis incidunt. Exercitationem, eligendi!</p>
+                <aside>
+                    <p>Artigo escríto por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        Desenvolvido pelo CursoemVideo
+    </footer>
+</body>
+</html>
